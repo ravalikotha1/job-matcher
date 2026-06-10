@@ -72,6 +72,22 @@ python src/main.py
 - Never hardcode API keys. Always read from environment variables.
 - Keep each module independently runnable and testable.
 
+## Working Style (Important)
+
+This is a **learning project**. The user is an ML Engineering Manager transitioning to ML Platform / AI Architect roles and building this to learn and prepare for interviews.
+
+- Before implementing anything, explain the architectural tradeoff in plain language. Let the user decide.
+- When there are multiple valid approaches, present them as a short table (option, pros, cons) rather than just picking one.
+- Explain the "why" behind every non-obvious decision.
+- Do not rush. Understanding matters more than speed.
+
+## Reference: career-ops
+
+There is an open-source project at `~/git projects/career-ops` that solves a similar problem. Do not read it in full — it is complex. Reference specific files only at these moments:
+
+- **When designing the job scorer:** read `~/git projects/career-ops/modes/oferta.md` for scoring rubric inspiration
+- **When designing the resume optimizer:** read `~/git projects/career-ops/cv.md` for CV structure reference
+
 ## Secrets
 
 - `ANTHROPIC_API_KEY` — Claude API key
